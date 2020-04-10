@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(192,89%,48%);
+    font-family:inter;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.imagen{
+    height:250px;
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding:20px 0px 20px 20px;
+    background-image: url(./images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.price{
+    height: 90px;
+    width:90px;
+    border-radius: 50%;
+    background-color: hsl(350, 100%, 70%);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.flag{
+    height:50px;
+    padding:10px;
+    background-color:hsl(109, 58%, 47%);
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    border-radius:5px;
+}
+.text{
+    height:400px;
+    width:400px;
+    font-family:inter;
+    padding-right: 40px;
+    padding-left: 30px;
+    background-color:white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.title{
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight:400;
+}
+.texto{
+    margin-top: 20px;
+    font-size: 18px;
+    color:hsl(0, 0%, 56%);
+}
+.texto2{
+    margin-top: 30px;
+    font-size: 18px;
+    color:hsl(0, 0%, 56%);
+}
+.dates{
+    padding:15px;
+    height:70px;
+    width:70px;
+    border-radius: 5px;
+    background-color:hsl(0, 0%, 80%);
+    margin-right: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+.sailing-dates{
+    margin-top: 15px;
+    display:flex;
+    flex-direction: row;
+}
+.dates-mod{
+    font-weight: 200;
+}
+.line{
+    margin-top: 30px;
+}
+.footer{
+    margin-top: 20px;
+    color: hsl(0, 0%, 56%);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-izquierda{
+    display:flex;
+    flex-direction: row;
+}
+.icon{
+    padding-right: 5px;
+    font-size:20px;
+}
+.bookmark{
+    margin-left: 20px;
+}
+.ellipsis{
+    font-size: 32px;
+    color:hsl(0, 0%, 76%);
+}
